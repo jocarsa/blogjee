@@ -61,7 +61,7 @@
 					}
 				}
 			%>
-			<form action="?" method="POST">
+			<form action="/insertar"></form>
 			<tr>
 				<th></th>
 				<th><input type="text" name="titulo"></th>
@@ -73,7 +73,6 @@
 				<th><input type="text" name="palabrasclave"></th>
 				<th><input type="submit"></th>
 			</tr>
-			</form>
 		</tbody>
 	</table>
 </body>

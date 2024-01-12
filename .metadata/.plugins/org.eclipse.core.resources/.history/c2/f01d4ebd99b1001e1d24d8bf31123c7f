@@ -61,7 +61,7 @@
 					}
 				}
 			%>
-			<form action="?" method="POST">
+			<form action="/insertar" method="POST">
 			<tr>
 				<th></th>
 				<th><input type="text" name="titulo"></th>

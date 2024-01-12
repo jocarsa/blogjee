@@ -61,19 +61,6 @@
 					}
 				}
 			%>
-			<form action="?" method="POST">
-			<tr>
-				<th></th>
-				<th><input type="text" name="titulo"></th>
-				<th><input type="text" name="contenido"></th>
-				<th><input type="text" name="fecha"></th>
-				<th><input type="text" name="autor"></th>
-				<th><input type="text" name="imagen"></th>
-				<th><input type="text" name="categoria"></th>
-				<th><input type="text" name="palabrasclave"></th>
-				<th><input type="submit"></th>
-			</tr>
-			</form>
 		</tbody>
 	</table>
 </body>
