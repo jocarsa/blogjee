@@ -25,6 +25,11 @@
 					
 					conexion = DriverManager.getConnection(url,usuario,contrasena);
 					
+					Statement peticion = conexion.createStatement();
+					ResultSet resultados = peticion.executeQuery("SELECT * FROM entradas");
+					
+					
+					
 				}catch(Exception e){
 					e.printStackTrace();
 				}finally{

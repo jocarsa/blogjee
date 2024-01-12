@@ -26,3 +26,6 @@
 0:0:0:0:0:0:0:1 - - [12/Jan/2024:22:59:25 +0100] "GET /BlogJEE/css/estilo.css HTTP/1.1" 304 -
 0:0:0:0:0:0:0:1 - - [12/Jan/2024:22:59:27 +0100] "GET /BlogJEE/index.jsp HTTP/1.1" 200 484
 0:0:0:0:0:0:0:1 - - [12/Jan/2024:22:59:27 +0100] "GET /BlogJEE/css/estilo.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Jan/2024:23:01:44 +0100] "GET /BlogJEE/index.jsp HTTP/1.1" 200 484
+0:0:0:0:0:0:0:1 - - [12/Jan/2024:23:01:44 +0100] "GET /BlogJEE/css/estilo.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Jan/2024:23:02:46 +0100] "GET /BlogJEE/index.jsp HTTP/1.1" 200 484
