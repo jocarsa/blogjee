@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg6796"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="esquema de la aplicacion.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview6798"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.2097881"
+     inkscape:cx="555.93567"
+     inkscape:cy="408.41021"
+     inkscape:window-width="1350"
+     inkscape:window-height="1048"
+     inkscape:window-x="152"
+     inkscape:window-y="83"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs6793" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#008080;stroke-width:1;stroke-linecap:round;stroke-linejoin:round"
+       id="rect6993"
+       width="53.520412"
+       height="65.493652"
+       x="104.88563"
+       y="78.065559"
+       ry="2.0283988" />
+    <rect
+       style="fill:#000080;stroke-width:1;stroke-linecap:round;stroke-linejoin:round"
+       id="rect6917"
+       width="22.98863"
+       height="27.777927"
+       x="107.87894"
+       y="84.052177"
+       ry="2.0283988" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:3.23782px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#000080;stroke-width:0.262231;stroke-linecap:round;stroke-linejoin:round"
+       x="109.96465"
+       y="88.347023"
+       id="text6921"><tspan
+         sodipodi:role="line"
+         id="tspan6919"
+         style="fill:#ffffff;stroke-width:0.262231"
+         x="109.96465"
+         y="88.347023">entradas</tspan></text>
+    <rect
+       style="fill:#000080;stroke-width:1;stroke-linecap:round;stroke-linejoin:round"
+       id="rect6923"
+       width="22.98863"
+       height="27.777927"
+       x="132.34673"
+       y="84.052177"
+       ry="2.0283988" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:3.23782px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#000080;stroke-width:0.262231;stroke-linecap:round;stroke-linejoin:round"
+       x="134.43243"
+       y="88.347023"
+       id="text6927"><tspan
+         sodipodi:role="line"
+         id="tspan6925"
+         style="fill:#ffffff;stroke-width:0.262231"
+         x="134.43243"
+         y="88.347023">categorías</tspan></text>
+    <rect
+       style="fill:#000080;stroke-width:1;stroke-linecap:round;stroke-linejoin:round"
+       id="rect6929"
+       width="22.98863"
+       height="27.777927"
+       x="107.93462"
+       y="113.38663"
+       ry="2.0283988" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:3.23782px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#000080;stroke-width:0.262231;stroke-linecap:round;stroke-linejoin:round"
+       x="110.02033"
+       y="117.68147"
+       id="text6933"><tspan
+         sodipodi:role="line"
+         id="tspan6931"
+         style="fill:#ffffff;stroke-width:0.262231"
+         x="110.02033"
+         y="117.68147">autores</tspan></text>
+    <rect
+       style="fill:#000080;stroke-width:1;stroke-linecap:round;stroke-linejoin:round"
+       id="rect6935"
+       width="22.98863"
+       height="27.777927"
+       x="132.24031"
+       y="113.38663"
+       ry="2.0283988" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:3.23782px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#000080;stroke-width:0.262231;stroke-linecap:round;stroke-linejoin:round"
+       x="134.32602"
+       y="117.68147"
+       id="text6939"><tspan
+         sodipodi:role="line"
+         id="tspan6937"
+         style="fill:#ffffff;stroke-width:0.262231"
+         x="134.32602"
+         y="117.68147">administradores</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:3.23782px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#000080;stroke-width:0.262231;stroke-linecap:round;stroke-linejoin:round"
+       x="106.49241"
+       y="81.52227"
+       id="text7049"><tspan
+         sodipodi:role="line"
+         id="tspan7047"
+         style="fill:#ffffff;stroke-width:0.262231"
+         x="106.49241"
+         y="81.52227">blog</tspan></text>
+    <ellipse
+       style="fill:#008080;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="path7103"
+       cx="156.90936"
+       cy="80.280602"
+       rx="6.4056859"
+       ry="2.3347828" />
+    <ellipse
+       style="fill:#008080;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="ellipse7468"
+       cx="156.90936"
+       cy="77.646484"
+       rx="6.4056859"
+       ry="2.3347828" />
+    <ellipse
+       style="fill:#008080;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="ellipse7470"
+       cx="156.90936"
+       cy="75.012375"
+       rx="6.4056859"
+       ry="2.3347828" />
+    <ellipse
+       style="fill:#008080;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="ellipse7472"
+       cx="156.90936"
+       cy="72.378258"
+       rx="6.4056859"
+       ry="2.3347828" />
+  </g>
+</svg>
