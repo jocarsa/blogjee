@@ -32,6 +32,7 @@
 						out.println(""+
 								"<article>"+
 									"<h4>"+resultados.getString("titulo")+"</h4>"+
+									"<img src='imagenes/"+resultados.getString("imagen")+"'>"+
 									"<time>"+resultados.getString("fecha")+"</time>"+
 									"<p class='autor'>"+resultados.getString("autor")+"</p>"+
 									"<p class='categoria'>"+resultados.getString("categoria")+"</p>"+

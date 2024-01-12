@@ -1,0 +1,12 @@
+body{
+	background:rgb(200,200,200);
+}
+header,main,footer{
+	width:80%;
+	margin:auto;
+	padding:20px;
+	background:white;
+}
+header,footer{
+	text-align:center;
+}

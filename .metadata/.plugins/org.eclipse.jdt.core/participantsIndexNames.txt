@@ -1,3 +1,5 @@
 INDEX VERSION 1.126
+C:\Users\Jose Vicente\Documents\GitHub2\blogjee\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1359327139.index
+\BlogJEE\src
 C:\Users\Jose Vicente\Documents\GitHub2\blogjee\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3373605460.index
 \BlogJEE\src

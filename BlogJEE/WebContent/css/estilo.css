@@ -10,3 +10,16 @@ header,main,footer{
 header,footer{
 	text-align:center;
 }
+article{
+	margin-bottom:20px;
+	border-bottom:1px solid grey;
+	padding-bottom:20px;
+	font-family:sans-serif;
+	text-align:justify;
+}
+article img{
+	width:20%;
+	float:left;
+	margin-right:20px;
+	margin-bottom:20px;
+}
