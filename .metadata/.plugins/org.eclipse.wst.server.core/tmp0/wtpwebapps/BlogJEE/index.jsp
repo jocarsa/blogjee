@@ -31,12 +31,12 @@
 					while(resultados.next()){
 						out.println(""+
 								"<article>"+
-									"<h4></h4>"+
-									"<time></time>"+
-									"<p class='autor'></p>"+
-									"<p class='categoria'></p>"+
-									"<p class='palabrasclave'></p>"+
-									"<p class='contenido'></p>"+
+									"<h4>"+resultados.getString("titulo")+"</h4>"+
+									"<time>"+resultados.getString("fecha")+"</time>"+
+									"<p class='autor'>"+resultados.getString("autor")+"</p>"+
+									"<p class='categoria'>"+resultados.getString("categoria")+"</p>"+
+									"<p class='palabrasclave'>"+resultados.getString("palabrasclave")+"</p>"+
+									"<p class='contenido'>"+resultados.getString("contenido")+"</p>"+
 								"</article>"+
 								"");
 					}
