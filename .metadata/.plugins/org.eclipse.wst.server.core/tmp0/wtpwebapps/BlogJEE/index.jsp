@@ -19,6 +19,11 @@
 				Connection conexion = null;
 				
 				try{
+					String url = "jdbc:mysql://localhost:3306/blogjee";
+					String usuario = "blogjee";
+					String contrasena = "blogjee";
+					
+					conexion = DriverManager.getConnection(url,usuario,contrasena);
 					
 				}catch(Exception e){
 					e.printStackTrace();

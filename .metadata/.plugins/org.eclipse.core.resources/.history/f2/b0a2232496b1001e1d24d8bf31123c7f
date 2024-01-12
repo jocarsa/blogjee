@@ -23,8 +23,6 @@
 					String usuario = "blogjee";
 					String contrasena = "blogjee";
 					
-					conexion = DriverManager.getConnection(url,usuario,contrasena);
-					
 				}catch(Exception e){
 					e.printStackTrace();
 				}finally{
