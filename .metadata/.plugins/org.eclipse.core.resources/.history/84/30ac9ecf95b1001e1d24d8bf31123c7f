@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<title>Insert title here</title>
+		<link rel="stylesheet" href="css/estilo.css">
+	</head>
+	<body>
+		<header>
+			<h1>JavaPress</h1>
+		</header>
+		<main>
+			<h3>Blog</h3>
+			<% import="java.sql.*" %>
+			<%
+				Class.forName("com.mysql.cj.jdbc.Driver");
+				Connection conexion = null;
+				
+				try{
+					
+				}catch(Exception e){
+					e.printStackTrace();
+				}finally{
+					if(conexion != null){
+						conexion.close();
+					}
+				}
+			%>
+		</main>
+		<footer>
+			<p>(c)2024 Jose Vicente Carratalá</p>
+		</footer>
+	</body>
+</html>

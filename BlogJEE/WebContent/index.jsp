@@ -5,12 +5,32 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 		<title>Insert title here</title>
+		<link rel="stylesheet" href="css/estilo.css">
 	</head>
 	<body>
 		<header>
 			<h1>JavaPress</h1>
 		</header>
-		<main></main>
-		<footer></footer>
+		<main>
+			<h3>Blog</h3>
+			<%@ page import="java.sql.*" %>
+			<%
+				Class.forName("com.mysql.cj.jdbc.Driver");
+				Connection conexion = null;
+				
+				try{
+					
+				}catch(Exception e){
+					e.printStackTrace();
+				}finally{
+					if(conexion != null){
+						conexion.close();
+					}
+				}
+			%>
+		</main>
+		<footer>
+			<p>(c)2024 Jose Vicente Carratalá</p>
+		</footer>
 	</body>
 </html>
