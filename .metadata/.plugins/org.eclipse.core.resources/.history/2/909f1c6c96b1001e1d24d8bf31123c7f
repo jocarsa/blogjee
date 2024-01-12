@@ -29,7 +29,7 @@
 					ResultSet resultados = peticion.executeQuery("SELECT * FROM entradas");
 					
 					while(resultados.next()){
-						out.println("ok");
+						out.println("ok")
 					}
 					
 				}catch(Exception e){

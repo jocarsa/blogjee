@@ -28,7 +28,9 @@
 					Statement peticion = conexion.createStatement();
 					ResultSet resultados = peticion.executeQuery("SELECT * FROM entradas");
 					
-					
+					while(resultados.next()){
+						out.println("ok");
+					}
 					
 				}catch(Exception e){
 					e.printStackTrace();
