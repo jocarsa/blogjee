@@ -20,9 +20,10 @@
 					
 					conexion2 = DriverManager.getConnection(url,usuario,contrasena);
 					
-					String peticionisercion = "INSERT INTO entradas VALUES(NULL,'1','2','2024-01-12','4','5','6','7')";
-					PreparedStatement inserto = conexion2.prepareStatement(peticionisercion);
-					inserto.executeUpdate();
+					String peticionisercion = "INSERT INTO entradas VALUES(NULL,'1','2','3','4','5','6','7')";
+					Statement peticion = conexion2.createStatement();
+					ResultSet resultados = peticion.executeUpdate();
+					
 					
 				}catch(Exception e){
 					e.printStackTrace();

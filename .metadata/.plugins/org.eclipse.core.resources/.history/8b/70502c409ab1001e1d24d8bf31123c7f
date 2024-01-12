@@ -18,17 +18,17 @@
 					String usuario = "blogjee";
 					String contrasena = "blogjee";
 					
-					conexion2 = DriverManager.getConnection(url,usuario,contrasena);
+					conexion = DriverManager.getConnection(url,usuario,contrasena);
 					
-					String peticionisercion = "INSERT INTO entradas VALUES(NULL,'1','2','2024-01-12','4','5','6','7')";
-					PreparedStatement inserto = conexion2.prepareStatement(peticionisercion);
-					inserto.executeUpdate();
+					Statement peticion = conexion.createStatement();
+					ResultSet resultados = peticion.executeQuery("INSERT INTO entradas VALUES(NULL,'1','2','3','4','5','6','7')");
+					
 					
 				}catch(Exception e){
 					e.printStackTrace();
 				}finally{
-					if(conexion2 != null){
-						conexion2.close();
+					if(conexion != null){
+						conexion.close();
 					}
 				}
 			%>
