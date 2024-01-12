@@ -75,6 +75,7 @@
 									"<td>"+resultados.getString("imagen")+"</td>"+
 									"<td>"+resultados.getString("categoria")+"</td>"+
 									"<td>"+resultados.getString("palabrasclave")+"</td>"+
+									"<td><a href='?operacion=borrar&id="+resultados.getInt("Identificador")+"'><button>Borrar</button></a></td>"+
 								"</tr>"+
 								"");
 					}
