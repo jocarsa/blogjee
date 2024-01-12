@@ -25,13 +25,13 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="2.2097881"
-     inkscape:cx="555.93567"
-     inkscape:cy="408.41021"
-     inkscape:window-width="1350"
-     inkscape:window-height="1048"
-     inkscape:window-x="152"
-     inkscape:window-y="83"
-     inkscape:window-maximized="0"
+     inkscape:cx="419.27098"
+     inkscape:cy="367.00352"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="8"
+     inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
      id="defs6793" />
@@ -162,5 +162,43 @@
        cy="72.378258"
        rx="6.4056859"
        ry="2.3347828" />
+    <rect
+       style="fill:#008080;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="rect10401"
+       width="32.849487"
+       height="12.868871"
+       x="65.158051"
+       y="62.110271"
+       ry="2.0283988" />
+    <rect
+       style="fill:#008080;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="rect10403"
+       width="32.849487"
+       height="12.868871"
+       x="65.158051"
+       y="78.027039"
+       ry="2.0283988" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:3.23782px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#000080;stroke-width:0.262231;stroke-linecap:round;stroke-linejoin:round"
+       x="66.980698"
+       y="66.07679"
+       id="text10407"><tspan
+         sodipodi:role="line"
+         id="tspan10405"
+         style="fill:#ffffff;stroke-width:0.262231"
+         x="66.980698"
+         y="66.07679">front</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:3.23782px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#000080;stroke-width:0.262231;stroke-linecap:round;stroke-linejoin:round"
+       x="66.980698"
+       y="82.599869"
+       id="text10411"><tspan
+         sodipodi:role="line"
+         id="tspan10409"
+         style="fill:#ffffff;stroke-width:0.262231"
+         x="66.980698"
+         y="82.599869">login</tspan></text>
   </g>
 </svg>
