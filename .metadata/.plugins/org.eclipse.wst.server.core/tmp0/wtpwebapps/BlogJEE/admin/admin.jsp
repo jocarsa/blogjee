@@ -12,23 +12,24 @@
 <%
 				Class.forName("com.mysql.cj.jdbc.Driver");
 				Connection conexion2 = null;
-				
-				try{
-					String url = "jdbc:mysql://localhost:3306/blogjee";
-					String usuario = "blogjee";
-					String contrasena = "blogjee";
-					
-					conexion2 = DriverManager.getConnection(url,usuario,contrasena);
-					
-					String peticionisercion = "INSERT INTO entradas VALUES(NULL,'1','2','2024-01-12','4','5','6','7')";
-					PreparedStatement inserto = conexion2.prepareStatement(peticionisercion);
-					inserto.executeUpdate();
-					
-				}catch(Exception e){
-					e.printStackTrace();
-				}finally{
-					if(conexion2 != null){
-						conexion2.close();
+				if(request.getParameter("titulo") != null){
+					try{
+						String url = "jdbc:mysql://localhost:3306/blogjee";
+						String usuario = "blogjee";
+						String contrasena = "blogjee";
+						
+						conexion2 = DriverManager.getConnection(url,usuario,contrasena);
+						
+						String peticionisercion = "INSERT INTO entradas VALUES(NULL,'"+request.getParameter("titulo")+"','"+request.getParameter("contenido")+"','"+request.getParameter("fecha")+"','"+request.getParameter("autor")+"','"+request.getParameter("imagen")+"','"+request.getParameter("categoria")+"','"+request.getParameter("palabrasclave")+"')";
+						PreparedStatement inserto = conexion2.prepareStatement(peticionisercion);
+						inserto.executeUpdate();
+						
+					}catch(Exception e){
+						e.printStackTrace();
+					}finally{
+						if(conexion2 != null){
+							conexion2.close();
+						}
 					}
 				}
 			%>
