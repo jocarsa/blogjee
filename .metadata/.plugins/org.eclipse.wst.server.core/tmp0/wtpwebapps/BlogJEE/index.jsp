@@ -29,7 +29,16 @@
 					ResultSet resultados = peticion.executeQuery("SELECT * FROM entradas");
 					
 					while(resultados.next()){
-						out.println("ok");
+						out.println(""+
+								"<article>"+
+									"<h4></h4>"+
+									"<time></time>"+
+									"<p class='autor'></p>"+
+									"<p class='categoria'></p>"+
+									"<p class='palabrasclave'></p>"+
+									"<p class='contenido'></p>"+
+								"</article>"+
+								"");
 					}
 					
 				}catch(Exception e){

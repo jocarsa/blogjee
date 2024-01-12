@@ -38,7 +38,7 @@
 									"<p class='palabrasclave'></p>"+
 									"<p class='contenido'></p>"+
 								"</article>"+
-								"");
+								");
 					}
 					
 				}catch(Exception e){
