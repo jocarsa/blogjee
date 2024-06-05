@@ -129,3 +129,16 @@
 0:0:0:0:0:0:0:1 - - [12/Jan/2024:23:40:36 +0100] "GET /BlogJEE/imagenes/prueba.png HTTP/1.1" 404 1015
 0:0:0:0:0:0:0:1 - - [12/Jan/2024:23:40:36 +0100] "GET /BlogJEE/imagenes/jsp.png HTTP/1.1" 304 -
 0:0:0:0:0:0:0:1 - - [12/Jan/2024:23:40:36 +0100] "GET /BlogJEE/imagenes/servlets.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Jan/2024:23:42:23 +0100] "GET /BlogJEE/admin/admin.jsp?operacion=borrar&id=3 HTTP/1.1" 200 3309
+0:0:0:0:0:0:0:1 - - [12/Jan/2024:23:42:25 +0100] "GET /BlogJEE/admin/admin.jsp?operacion=borrar&id=4 HTTP/1.1" 200 3140
+0:0:0:0:0:0:0:1 - - [12/Jan/2024:23:42:25 +0100] "GET /BlogJEE/admin/admin.jsp?operacion=borrar&id=5 HTTP/1.1" 200 2971
+0:0:0:0:0:0:0:1 - - [12/Jan/2024:23:42:25 +0100] "GET /BlogJEE/admin/admin.jsp?operacion=borrar&id=6 HTTP/1.1" 200 2802
+0:0:0:0:0:0:0:1 - - [12/Jan/2024:23:42:26 +0100] "GET /BlogJEE/admin/admin.jsp?operacion=borrar&id=7 HTTP/1.1" 200 2633
+0:0:0:0:0:0:0:1 - - [12/Jan/2024:23:42:26 +0100] "GET /BlogJEE/admin/admin.jsp?operacion=borrar&id=8 HTTP/1.1" 200 2464
+0:0:0:0:0:0:0:1 - - [12/Jan/2024:23:42:27 +0100] "GET /BlogJEE/admin/admin.jsp?operacion=borrar&id=9 HTTP/1.1" 200 2295
+0:0:0:0:0:0:0:1 - - [12/Jan/2024:23:42:31 +0100] "GET /BlogJEE/ HTTP/1.1" 200 1753
+0:0:0:0:0:0:0:1 - - [12/Jan/2024:23:42:31 +0100] "GET /BlogJEE/imagenes/prueba.png HTTP/1.1" 404 1015
+0:0:0:0:0:0:0:1 - - [12/Jan/2024:23:42:55 +0100] "POST /BlogJEE/admin/admin.jsp? HTTP/1.1" 200 2552
+0:0:0:0:0:0:0:1 - - [12/Jan/2024:23:42:59 +0100] "GET /BlogJEE/ HTTP/1.1" 200 2019
+0:0:0:0:0:0:0:1 - - [12/Jan/2024:23:42:59 +0100] "GET /BlogJEE/imagenes/Mono%20de%20trabajo.png HTTP/1.1" 404 1041
+0:0:0:0:0:0:0:1 - - [12/Jan/2024:23:42:59 +0100] "GET /BlogJEE/imagenes/prueba.png HTTP/1.1" 404 1015

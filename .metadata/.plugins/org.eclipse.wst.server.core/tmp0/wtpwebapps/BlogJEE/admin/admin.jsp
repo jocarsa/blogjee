@@ -33,6 +33,30 @@
 					}
 				}
 			%>
+<%
+				Class.forName("com.mysql.cj.jdbc.Driver");
+				Connection conexion3 = null;
+				if(request.getParameter("operacion") != null){
+					try{
+						String url = "jdbc:mysql://localhost:3306/blogjee";
+						String usuario = "blogjee";
+						String contrasena = "blogjee";
+						
+						conexion3 = DriverManager.getConnection(url,usuario,contrasena);
+						
+						String peticionisercion = "DELETE FROM entradas WHERE Identificador = "+request.getParameter("id")+";";
+						PreparedStatement inserto = conexion3.prepareStatement(peticionisercion);
+						inserto.executeUpdate();
+						
+					}catch(Exception e){
+						e.printStackTrace();
+					}finally{
+						if(conexion3 != null){
+							conexion3.close();
+						}
+					}
+				}
+			%>
 
 <h1>Panel de control</h1>
 	<table border=1>
